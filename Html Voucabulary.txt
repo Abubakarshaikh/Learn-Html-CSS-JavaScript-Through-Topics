@@ -1,0 +1,29 @@
+[HTML VOCABULARY]
+
+- RIGHT-ANGLE BRACKET (more-than sign)  >
+- LEFT-ANGLE-BRACKET (less-than sign)   <
+- CHARATOR                              P
+- FORWARD SLASH                         /
+- CLOSING TAG                           </p>
+- OPENING TAG                           <p>
+- ELEMENT                               <p> Element </p>
+- NESTED HTML ELEMENT                   <html>, <body>, <h1> and <p>
+- EMPTY HTML ELEMENTS			<br>
+- CASE SENSITIVE			<P>, <p>, <UL>
+- BLOCK LEVEL ELEMENTS                  <p>, <ol> , <ul> , <dl>, All headings, <article>, <section>, <div>
+- INLINE ELEMENT                        <a>, <strong>, <em>, <b>, <i>, <q>, <mark>, <span>
+- ATTRIBUTES				action, align, autofocus, autoplay, bgcolor, checked, cols, colspan, href
+- GLOBAL ATTRIBUTES                     class, id, style, title, dir
+- EVENT ATTRIBUTES
+- Window Event Attributes		onload, onerror
+- Form Events				onchange, oninput, onsubmit, onsearch, 
+- Keyboard Events			onkeydown, onkeypress
+- Mouse Events				onclick, ondblclick, onmousedown, onmousemove, onmouseup, onmouseover
+- DRAG EVENTS				ondrag, onscroll, ondragend, ondragenter, ondragover, ondragstart
+- Clipboard Events			oncopy, oncut, onpaste, 			
+- Media Events                    	oncanplay, onended, onpause, onplay, onplaying, onprogress, onloadeddata
+- ATTRIBUTES NAME                       lang=
+- ATTRIBUTES VALUE                      "en-us"
+- HTML ENTITIES                         &nbsp;
+- META TAG (byond)
+- SELF CLOSING & SINGLETON             <img>, <br>, <hr>
