@@ -2,7 +2,7 @@
 
 - RIGHT-ANGLE BRACKET (more-than sign)  >
 - LEFT-ANGLE-BRACKET (less-than sign)   <
-- CHARATOR                              P
+- CHARACTOR                              P
 - FORWARD SLASH                         /
 - CLOSING TAG                           </p>
 - OPENING TAG                           <p>
