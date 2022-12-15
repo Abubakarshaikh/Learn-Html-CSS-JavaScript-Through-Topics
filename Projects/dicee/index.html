@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicee Game</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+
+
+        body {
+            display: flex;
+            background-color: red;
+            justify-content: space-evenly;
+            height: 100vh;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input id="leftImage" type="image" src="images/dice2.png" onclick="rollingDice()">
+    <input id="rightImage" type="image" src="images/dice2.png" onclick="rollingDice()">
+
+
+
+    <script>
+        rollingDice();
+        function rollingDice() {
+            let leftRandomNumber = Math.floor(Math.random() * 6) + 1;
+            var randomDiceImage = "dice" + leftRandomNumber + ".png";
+            var randomImageSource = "images/" + randomDiceImage;
+            document.getElementById("leftImage").src = randomImageSource;
+
+            let rightRandomNumber = Math.floor(Math.random() * 6) + 1;
+            var randomDiceImage = "dice" + rightRandomNumber + ".png";
+            var randomImageSource = "images/" + randomDiceImage;
+            document.getElementById("rightImage").src = randomImageSource;
+        }
+    </script>
+</body>
+
+</html>

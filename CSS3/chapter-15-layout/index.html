@@ -7,33 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div.box {
-            background-color: aqua;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            height: 400px;
+        .a {
+            height: 320px;
+            width: 120px;
+            background-color: red;
+            float: left;
         }
 
-        .box>div {
+        .b {
+            height: 220px;
+            width: 120px;
             background-color: red;
-            margin: 10px;
-            text-align: center;
-            width: 100px;
-            height: 100px;
-            line-height: 75px;
-            font-size: 30px;
+            float: right;
+        }
+
+        .c {
+            height: 220px;
+            width: 100%;
+            background-color: green;
+            clear: both;
         }
     </style>
 </head>
 
 <body>
-    <div class="box">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-    </div>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+
 </body>
 
 </html>
