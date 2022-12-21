@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        .container{
+            display: flex;
+            background-color: rgb(46, 197, 147);
+            height: 100%;
+            justify-content: space-evenly;
+            
+        }
+        h1,h2{
+            text-align: center;
+        }
+        #left{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+    #right{
+        display: flex; 
+        justify-content: center;
+      align-items: center;
+        height: 100%;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+     
+    <div id="left">  <input type="image" id="dice-img" src="images/dice1.png" onclick="Dice()"></div>
+    <div id="right"><input type="image" id="dice-img" src="images/dice1.png" onclick="Dice1()"></div>
+  </div>
+    <script>
+        let count = -0;
+  
+        Dice();
+        function Dice(){
+         count ++;
+         let imageUrl = "images/dice"+count+".png";
+         document.getElementById("dice-img").src = imageUrl;
+        }
+     
+    </script>
+</body>
+</html>
